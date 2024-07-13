@@ -3,12 +3,17 @@
 The Task Manager is a web application built using Django and Django REST Framework, designed to help users manage their tasks effectively. 
 It provides CRUD (Create, Read, Update, Delete) operations for tasks, allowing users to add, view, update, and delete tasks seamlessly.
 
-**Features**
-Create Task: Add new tasks with title, description, and completion status.
-View Task: Retrieve detailed information about a specific task by its ID.
-List Tasks: View a list of all tasks with pagination support.
-Update Task: Modify details of an existing task.
-Delete Task: Remove tasks from the database.
+*Features*
+**Create Task:**
+Add new tasks with title, description, and completion status.
+**View Task:**
+Retrieve detailed information about a specific task by its ID.
+**List Tasks:**
+View a list of all tasks with pagination support.
+**Update Task:**
+Modify details of an existing task.
+**Delete Task:**
+Remove tasks from the database.
 
 ## Technologies Used
 Backend: Django, Django REST Framework
