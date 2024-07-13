@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, button {
+    margin: 5px 0;
+    padding: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+#task-list {
+    display: flex;
+    flex-direction: column; /* If you want items to stack vertically */
+    align-items: center; /* Centers items horizontally */
+    height: 80vh;
+    overflow: auto;
+}
+.task-item {
+    border: 1px solid #ddd; /* Optional border */
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    text-align: left;
+    width: fit-content;
+    width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    border-radius: 5px; /* Optional rounded corners */
+    transition: box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.task-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Slightly larger shadow on hover */
+}
