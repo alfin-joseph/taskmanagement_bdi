@@ -6,12 +6,16 @@ It provides CRUD (Create, Read, Update, Delete) operations for tasks, allowing u
 *Features*
 **Create Task:**
 * Add new tasks with title, description, and completion status.
+  
 **View Task:**
 * Retrieve detailed information about a specific task by its ID.
+  
 **List Tasks:**
 * View a list of all tasks with pagination support.
+  
 **Update Task:**
 * Modify details of an existing task.
+  
 **Delete Task:**
 * Remove tasks from the database.
 
