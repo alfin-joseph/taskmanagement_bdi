@@ -1,4 +1,4 @@
-#### Task Manager Application
+# Task Manager Application
 **Overview**
 The Task Manager is a web application built using Django and Django REST Framework, designed to help users manage their tasks effectively. 
 It provides CRUD (Create, Read, Update, Delete) operations for tasks, allowing users to add, view, update, and delete tasks seamlessly.
@@ -26,7 +26,7 @@ MySQL (or another relational database)
 ## Installation
 ***Clone the repository:***
 ```sh 
-git clone <repository-url>
+git clone https://github.com/alfin-joseph/taskmanagement_bdi.git
 cd task-manager
 ```
 ***Install Python dependencies:*** 
